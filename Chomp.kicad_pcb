@@ -1577,7 +1577,7 @@
     )
   )
 
-  (gr_rect (start 174.625 68.2625) (end 79.375 109.5375) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp f3809e42-e6d7-4d96-a523-a97e6efbb322))
+  (gr_rect (start 174.625 82.55) (end 79.375 127) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp f3809e42-e6d7-4d96-a523-a97e6efbb322))
   (gr_text "10" (at 139.7 82.325) (layer "Cmts.User") (tstamp 146b9b09-d0e0-483e-9843-0a492e2a14b6)
     (effects (font (size 1 1) (thickness 0.15)))
   )
