@@ -1,2 +1,2 @@
 # chomp
-Fender 5F1 clone
+Fender 5E1 clone
