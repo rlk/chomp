@@ -7,12 +7,12 @@
 <h1>The Chomp</h1>
 <p>The Chomp is my Fender Champ Amp clone, designed and built in January 2023. The circuit is a 5E1, which was produced by Fender in 1955 and 1956. My design was drawn using <a href="http://www.kicad.org">KiCad</a> and all of the source files can be found at <a href="https://github.com/rlk/chomp">my Github page</a>.</p>
 <h2>Schematic</h2>
-<p>The 5E1 differs slightly from the much more common 5F1 circuit in that the first stage of the power supply includes a choke instead of a 10K resistor. I use a <a href="https://www.tedweber.com/w022772/">W022772 power transformer</a> which provides both a 660-0-660 secondary and a 600-0-600 secondary. The 660 is appropriate for a 5F1, but the 600 should be used for a 5E1, as the voltage drop of the 10K resistor is no longer present. (Fender's 5E1 used a 500-0-500 power transformer.)</p>
-<p>I've also diverged in my selection of filter capacitors, using 10/10/15 rather than the 5E1's 8/8/8 or the 5F1's 8/8/16. Large capacitors with vintage-correct values are niche and expensive as well as unnecessary.</p>
+<p>The 5E1 differs slightly from the much more common 5F1 circuit in that the first stage of the power supply includes a 4H choke instead of a 10K&Omega; resistor. I use a <a href="https://www.tedweber.com/w022772/">W022772 power transformer</a> which provides both a 330-0-330 secondary and a 300-0-300 secondary. The 330V secondary is appropriate for a 5F1, but the 300V should be used for a 5E1, as the voltage drop of the 10K&Omega; resistor is no longer present. (Fender's 5E1 used a 250-0-250 power transformer.) A JJ 5Y3 on the 330V secondary puts 340V on the plate of the 6V6. </p>
+<p>I've also diverged in my selection of filter capacitors, using 10&mu;F/10&mu;F/15&mu;F rather than the 5E1's 8&mu;F/8&mu;F/8&mu;F or the 5F1's 8&mu;F/8&mu;F/16&mu;F. Large capacitors with vintage-correct values are niche and expensive as well as unnecessary.</p>
 <p>Here's a <a href="chomp-schematic.pdf">PDF of the schematic</a> suitable for printing.</p>
 <img width="100%" src="chomp-schematic.png">
 <h2>Layout</h2>
-<p>This layout is designed for a U-style turret strip, such as <a href="https://www.tubesandmore.com/products/turret-strip-36-lugs-two-rows-u-style-extra-dense">part number P-HTBU-2X18, available here</a>. In the photos below, you can see that I used the inner terminals to mount passive components, the outer terminals to make off-board connections, and the rivet holes to tie adjacent columns. The large electrolytic capacitors don't fit that board, so I've mounted them using stand-alone turret strips. Note, there is one lead on the back of the main terminal strip, connecting the bottom of column 10 with the top of column 11.</p>
+<p>This layout is designed for a U-style turret strip, such as a <a href="https://www.tubesandmore.com/products/turret-strip-36-lugs-two-rows-u-style-extra-dense">P-HTBU-2X18</a>, which is easily trimmed to size. In the photos below, you can see that I used the inner terminals to mount passive components, the outer terminals to make off-board connections, and the rivet holes to tie adjacent columns. The large electrolytic capacitors don't fit that board, so I've mounted them using stand-alone turret strips. Note, there is one lead on the back of the main terminal strip, connecting the bottom of column 10 with the top of column 11.</p>
 <p>Here's a <a href="chomp-layout.pdf">PDF of the layout</a> suitable for printing.</p>
 <img width="100%" src="chomp-layout.png">
 <h2>Build</h2>
@@ -21,6 +21,6 @@
 <a href="chomp-close-up.jpg"><img width="24%" src="chomp-close-up.jpg"></a>
 <a href="chomp-chassis.jpg"><img width="24%" src="chomp-chassis.jpg"></a>
 <a href="chomp-back.jpg"><img width="24%" src="chomp-back.jpg"></a>
-<p>(Note the 10K resistor in the right-most colums disappears. This layout easily supports both 5E1 and 5F1.)</p>
+<p>(Note the 10K&Omega; resistor in the right-most colums disappears. This layout easily supports both 5E1 and 5F1.)</p>
 </body>
 </html>
