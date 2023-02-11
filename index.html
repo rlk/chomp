@@ -2,6 +2,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<style>
+body {
+	margin: 5em 5em 5em 5em;
+	font-family: Arial;
+	font-size: 12pt;
+	line-height: 16pt;
+	color: #222;
+}
+</style>
 </head>
 <body>
 <h1>The Chomp</h1>
@@ -10,17 +19,14 @@
 <p>The 5E1 differs slightly from the much more common 5F1 circuit in that the first stage of the power supply includes a 4H choke instead of a 10K&Omega; resistor. I use a <a href="https://www.tedweber.com/w022772/">W022772 power transformer</a> which provides both a 330-0-330 secondary and a 300-0-300 secondary. The 330V secondary is appropriate for a 5F1, but the 300V should be used for a 5E1, as the voltage drop of the 10K&Omega; resistor is no longer present. (Fender's 5E1 used a 250-0-250 power transformer.) A JJ 5Y3S on the 300V secondary puts 340V on the plate of the 6V6. </p>
 <p>I've also diverged in my selection of filter capacitors, using 10&mu;F/10&mu;F/15&mu;F rather than the 5E1's 8&mu;F/8&mu;F/8&mu;F or the 5F1's 8&mu;F/8&mu;F/16&mu;F. Large capacitors with vintage-correct values are expensive and unnecessary.</p>
 <p>Here's a <a href="chomp-schematic.pdf">PDF of the schematic</a> suitable for printing.</p>
-<img width="100%" src="chomp-schematic.png">
+<img style="width:100%" src="chomp-schematic.png">
 <h2>Layout</h2>
 <p>This layout is designed for a U-style turret strip, such as a <a href="https://www.tubesandmore.com/products/turret-strip-36-lugs-two-rows-u-style-extra-dense">P-HTBU-2X18</a>, which is easily trimmed to size. In the photos below, you can see that I used the inner terminals to mount passive components, the outer terminals to make off-board connections, and the rivet holes to tie adjacent columns. The large electrolytic capacitors don't fit that board, so I've mounted them using stand-alone turret strips. Note, there is one lead on the back of the main terminal strip, connecting the bottom of column 10 with the top of column 11.</p>
 <p>Here's a <a href="chomp-layout.pdf">PDF of the layout</a> suitable for printing.</p>
-<img width="100%" src="chomp-layout.png">
+<img style="width:100%" src="chomp-layout.png">
 <h2>Build</h2>
 <p>Here are some photos of my build. Click to enlarge. All off-board wiring is 18 gauge solid copper. Signal wires are yellew, grounds are black, DC supply is red, and filament AC is green. This chassis is mounted in a <a href="https://www.tedweber.com/5f1cab/">5F1 cabinet from Teb Weber</a>. It looks and sounds great.</p>
-<a href="chomp-terminal-strip.jpg"><img width="24%" src="chomp-terminal-strip.jpg"></a>
-<a href="chomp-close-up.jpg"><img width="24%" src="chomp-close-up.jpg"></a>
-<a href="chomp-chassis.jpg"><img width="24%" src="chomp-chassis.jpg"></a>
-<a href="chomp-back.jpg"><img width="24%" src="chomp-back.jpg"></a>
+<a href="chomp-terminal-strip.jpg"><img style="width:50%" src="chomp-terminal-strip.jpg"></a><a href="chomp-close-up.jpg"><img style="width:50%" src="chomp-close-up.jpg"></a><a href="chomp-chassis.jpg"><img style="width:50%" src="chomp-chassis.jpg"></a><a href="chomp-back.jpg"><img style="width:50%" src="chomp-back.jpg"></a>
 <p>(Note the 10K&Omega; resistor in the right-most colums disappears. This layout easily supports both 5E1 and 5F1.)</p>
 </body>
 </html>
